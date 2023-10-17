@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #060505;
+  align-items: center;
+  box-shadow: 0 -6px 10px 5px rgba(117, 15, 15, 0.5);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+
+.topnav a {
+  color: #f7f3f3;
+  text-align: center;
+  padding: 17px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.logo {
+  float: left;
+}
+
+.topnav a:hover {
+  background-color: #adaaaa;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.search-container input[type="text"] {
+  padding: 10px 500px;
+  margin-right: 10px;
+  border: 2px solid rgb(135, 110, 110); 
+  border-radius: 5px 0 0 5px;
+  justify-content: center;
+}
+
+
+.search-container .button1 {
+  padding: 10px 15px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.banner{
+  width:100%;
+  height: 50vh;
+  margin-top: 45px;
+  background-image: url(./Logo.png);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0-6px 10px 5px rgba(149,149,149,0.5);
+
+}
